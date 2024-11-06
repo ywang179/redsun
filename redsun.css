@@ -150,7 +150,7 @@ table, td {
 }
 
 .h1 {
-    font-size: px;
+    font-size: 80px;
 }
 
 .h2 {
@@ -247,7 +247,7 @@ text-decoration: underline;
     width: 100%;
     top: 0;
     z-index: 1000;
-    padding: 20 20px;
+    padding: 20px;
 }
 
 .nav-buttons {
@@ -294,7 +294,6 @@ text-decoration: underline;
 .label-span {
     color: #da1a00;
     list-style-type: disc;
-    padding-left: 1em;
     font-family: 'Inter-Bold', sans-serif;
     font-size: 20px;
     line-height: 32px;
@@ -304,11 +303,11 @@ text-decoration: underline;
 
 .label-span2 {
     color: var(--miscellaneous-keyboard-emoji-mic, rgba(27, 31, 38, 0.72));
+    padding-left: 2em;
     font-family: 'Inter-Regular', sans-serif;
     font-size: 14px;
     line-height: 32px;
     font-weight: 400;
-    padding-top: 32px;
 }
 
 .label-span3 {
@@ -317,7 +316,7 @@ text-decoration: underline;
     font-size: 14px;
     line-height: 32px;
     font-weight: 400;
-    padding-left: 5em;
+    padding-left: 4em;
 }
 
 .frame {
@@ -339,7 +338,9 @@ text-decoration: underline;
     gap: 32px;
     flex-shrink: 0;
     position: relative;
-    padding: 108px 0px 108px 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 
@@ -369,11 +370,4 @@ text-decoration: underline;
     flex-shrink: 0;
     margin-left: 20%;
     position: relative;
-}
-
-.description {
-    font-size: 16px;          /* Set the font size to 16 pixels */
-    color: #333;              /* Set the text color to a dark gray */
-    line-height: 1.5;         /* Set the line height to 1.5 */
-    margin: 10px 0;           /* Set vertical margins to 10 pixels */
 }
